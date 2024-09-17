@@ -7,7 +7,9 @@ One tradeoff in the sample app is that parsing the entire CSV is required before
 
 Full play through 
 https://github.com/user-attachments/assets/99361d8e-77d3-40fb-bfe3-263f7b92eb69
+
 https://github.com/user-attachments/assets/3f371051-eb50-4d4e-89a8-eb52e4f57d20
+
 https://github.com/user-attachments/assets/efeb9069-1db8-40e2-bcd8-0f6a69e62b67
 
 To handle errors, the job list is set to nil when a parsing issue occurs, allowing me to clearly distinguish between a file parsing error and an empty file. 
