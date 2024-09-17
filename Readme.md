@@ -6,6 +6,7 @@ In my current implementation, CSV parsing is done via a library, and the data is
 One tradeoff in the sample app is that parsing the entire CSV is required before any data is displayed. This could be inefficient for large files, as the current method processes the entire CSV in one go. However, in this small-scale sample, performance is fast, and to simulate a delay, I added a 2-second artificial pause. See below Full play through Part 1-3 below
 
 Full play through 
+
 https://github.com/user-attachments/assets/99361d8e-77d3-40fb-bfe3-263f7b92eb69
 
 https://github.com/user-attachments/assets/3f371051-eb50-4d4e-89a8-eb52e4f57d20
