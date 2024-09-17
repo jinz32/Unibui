@@ -26,6 +26,7 @@ struct JobListView: View {
             .task {
                 viewModel.fetchJobList()
             }
+            .foregroundColor(.white)
             .onAppear {
                 setOrangeNavigationBar()
                 customizeSearchBar()
